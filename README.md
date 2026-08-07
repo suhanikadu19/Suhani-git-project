@@ -62,3 +62,53 @@ Displays whether the entered number is an Armstrong number or not.
 ```
 153 is an Armstrong number
 ```
+# README
+
+## Program Title
+
+**Python Program to Find the Sum of the First N Natural Numbers**
+
+## Objective
+
+To write a Python program that calculates the sum of the first **N** natural numbers.
+
+## Description
+
+This program accepts a positive integer **N** from the user and calculates the sum of all natural numbers from **1** to **N** using a `for` loop. The calculated sum is then displayed on the screen.
+
+## Algorithm
+
+1. Start.
+2. Read the value of **N** from the user.
+3. Initialize `sum` to 0.
+4. Use a `for` loop from 1 to **N**.
+5. Add each number to `sum`.
+6. Display the final sum.
+7. Stop.
+
+## Input
+
+An integer **N** entered by the user.
+
+## Output
+
+The sum of the first **N** natural numbers.
+
+## Example
+
+**Input:**
+
+```text
+Enter a number: 10
+```
+
+**Output:**
+
+```text
+Sum of first numbers: 55
+```
+
+## Conclusion
+
+The program successfully computes and displays the sum of the first **N** natural numbers using a `for` loop.
+
