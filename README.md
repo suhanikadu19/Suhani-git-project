@@ -111,4 +111,55 @@ Sum of first numbers: 55
 ## Conclusion
 
 The program successfully computes and displays the sum of the first **N** natural numbers using a `for` loop.
+# README
+
+## Program Title
+
+**Python Program to Count the Number of Digits in a Given Integer**
+
+## Objective
+
+To write a Python program that counts the number of digits in a given integer.
+
+## Description
+
+This program accepts an integer from the user and counts the total number of digits in it using a `while` loop. In each iteration, the last digit is removed using integer division (`// 10`), and a counter is incremented until the number becomes 0. Finally, the total digit count is displayed.
+
+## Algorithm
+
+1. Start.
+2. Read an integer from the user.
+3. Initialize `count` to 0.
+4. Repeat while the number is greater than 0:
+
+   * Increment `count` by 1.
+   * Remove the last digit using `num = num // 10`.
+5. Display the value of `count`.
+6. Stop.
+
+## Input
+
+An integer entered by the user.
+
+## Output
+
+The total number of digits in the given integer.
+
+## Example
+
+**Input:**
+
+```text
+Enter a number: 12345
+```
+
+**Output:**
+
+```text
+Number of digit count: 5
+```
+
+## Conclusion
+
+The program successfully counts and displays the total number of digits in the given integer using a `while` loop.
 
