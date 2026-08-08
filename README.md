@@ -162,4 +162,62 @@ Number of digit count: 5
 ## Conclusion
 
 The program successfully counts and displays the total number of digits in the given integer using a `while` loop.
+# Calculate Sum and Average of Numbers
+
+## 📌 Description
+
+This Python program calculates the **total sum** and **average** of a list of numbers.
+
+## 🧮 Input
+
+The program uses the following list:
+
+```python
+numbers = [10, 20, 30, 40, 50]
+```
+
+## ⚙️ How It Works
+
+1. The `sum()` function calculates the total of all numbers.
+2. The `len()` function counts the number of elements.
+3. The average is calculated by dividing the total sum by the number of elements.
+4. The results are displayed using `print()`.
+
+## 💻 Code
+
+```python
+numbers = [10, 20, 30, 40, 50]
+
+total_sum = sum(numbers)
+average = total_sum / len(numbers)
+
+print("Total Sum:", total_sum)
+print("Average:", average)
+```
+
+## 📤 Output
+
+```text
+Total Sum: 150
+Average: 30.0
+```
+
+## 🎯 Concepts Used
+
+* Python Lists
+* `sum()` function
+* `len()` function
+* Arithmetic operations
+* `print()` function
+
+## ▶️ How to Run
+
+1. Install Python.
+2. Save the code as `main.py`.
+3. Open the terminal.
+4. Run:
+
+```bash
+python main.py
+```
 
